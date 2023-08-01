@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="content">
+                <h2>01</h2>
+                <h3>card um</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi suscipit ea eligendi accusantium sint esse, sed atque. Voluptatem cum, doloremque facilis architecto est laboriosam tenetur! Dicta iste vel aspernatur illo.</p>
+                <a href="#">mais informações</a>
+
+            </div>
+
+        </div>
+        <div class="card">
+            <div class="content">
+                <h2>02</h2>
+                <h3>card dois</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi suscipit ea eligendi accusantium sint esse, sed atque. Voluptatem cum, doloremque facilis architecto est laboriosam tenetur! Dicta iste vel aspernatur illo.</p>
+                <a href="#">mais informações</a>
+
+            </div>
+
+        </div>
+        <div class="card">
+            <div class="content">
+                <h2>03</h2>
+                <h3>card três</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi suscipit ea eligendi accusantium sint esse, sed atque. Voluptatem cum, doloremque facilis architecto est laboriosam tenetur! Dicta iste vel aspernatur illo.</p>
+                <a href="#">mais informações</a>
+
+            </div>
+
+        </div>
+        
+    </div>
+    <script type="text/javascript" src="vanilla-tiltjs.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+        max: 25,
+        speed:400,
+        glare: true,
+        "max-glare":1,
+        });
+    </script>
+</body>
+</html>
